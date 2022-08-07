@@ -1,0 +1,524 @@
+.main-page {
+      
+
+
+    
+    background-color: rgb(0, 9, 15);
+    
+    &__body { 
+        
+        
+        margin: 0 auto;
+    }
+    &__ellipse-1 {
+        position: absolute;
+        width: 202.52px;
+        height: 115.77px;
+        left: 57px;
+        top: -70px;
+        background: #00FFBB;
+        filter: blur(100px);
+        transform: rotate(-41.69deg);
+    }
+    &__ellipse-2 {
+        position: absolute;
+        width: 328.04px;
+        height: 206.54px;
+        left: -27.12px;
+        top: 367.68px;
+
+        background: #2ADACC;
+        filter: blur(200px);
+        transform: rotate(-41.69deg);
+    }
+    &__ellipse-3 {
+        position: absolute;
+        width: 202.52px;
+        height: 115.77px;
+        left: 1203px;
+        top: 235.7px;
+        
+        background: #3ABFFF;
+        filter: blur(150px);
+        transform: rotate(-41.69deg);
+    }
+    &__ellipse-4 {
+        position: absolute;
+        width: 402.52px;
+        height: 115.77px;
+        left: 1043px;
+        top: 535.7px;
+        
+        background: #3ABFFF;
+        filter: blur(200px);
+        transform: rotate(-41.69deg);
+    }
+    &__ellipse-mega-1 {
+        position: absolute;
+        width: 202.52px;
+        height: 115.77px;
+        left: 1105px;
+        top: 614.32px;
+        
+        background: #3ABFFF;
+        filter: blur(170px);
+        transform: rotate(-41.69deg);
+    }
+    &__ellipse-mega-2 {
+        position: absolute;
+        width: 328.04px;
+        height: 206.54px;
+        left: 291.41px;
+        top: 328.19px;
+
+        background: conic-gradient(from 197.1deg at 50% 50%, #6972CD 0deg, #FF00FF 360deg);
+
+        filter: blur(200px);
+        transform: rotate(-41.69deg);
+    }
+
+    &__hat {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1667px;
+        width: 100%;
+        
+        
+        z-index: 1;
+        padding-top: 20px;
+        
+
+    }
+    &__text-title {
+        padding-top: 213px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__button-next {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+.hat {
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        
+    }
+
+    &__logo-img {
+    }
+
+
+    &__burger {
+        display: none;
+        z-index: 3;
+        
+    }
+    &__logo-text {
+       padding-left: 17px;
+    }
+
+    &__menu {
+        z-index: 2;
+        
+    }
+
+    &__button {
+        font-family: 'Nunito-SemiBold';
+        font-weight: 16px;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #D9F7F5;
+        background-color: #000000;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition-property: color;
+        
+        width: 146px;
+        height: 40px;
+        &:hover{
+            
+            color: #2ADACC;
+            border: 3px solid #2ADACC;
+            border-radius: 6px;
+            width: 146px;
+            height: 40px;
+            
+            transition-property: color;
+        }
+    }
+}
+.text-title {
+
+&__main-title {
+    font-family: 'Poppins-ExtraBold';
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 68px;
+    color: #2ADACC;
+   
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+&__text-1 {
+    font-family: 'Poppins-Regular';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #D9F7F5;
+    padding-top: 32px;
+}
+
+&__text-2 {
+    font-family: 'Poppins-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D9F7F5;
+    padding-top: 20px;
+}
+}
+
+.button-next {
+
+&__body {
+    
+    background-color: #2ADACC;
+    text-align: center;
+    width: 146px;
+    height: 42px;
+    border-radius: 5px;
+    margin-top: 32px;
+    text-transform: uppercase;
+    font-family: 'Nunito-Bold';
+    font-weight: 700;
+    color: #00090F;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 100px;
+    transition-duration: 1s;
+    
+}
+}
+
+// Сдвиг элипсов и текста при уменьшение экранов
+
+@media (max-width:1625px) {
+    .main-page__ellipse-4 {
+        left: 1043px;
+    }
+    .main-page__ellipse-3 {
+        left: 1003px;
+    }
+    .main-page__ellipse-mega-1 {
+        left: 903px;
+    }
+}
+
+
+
+
+
+@media (max-width:1443px) {
+    .main-page__ellipse-4 {
+        left: 843px;
+    }
+    .main-page__ellipse-3 {
+        left: 803px;
+    }
+    .main-page__ellipse-mega-1 {
+        left: 603px;
+    }
+}
+
+@media (max-width:1400px) {
+    .hat__button {
+        font-family: 'Nunito-SemiBold';
+        font-weight: 16px;
+        font-size: 14px;
+        
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #D9F7F5;
+        background-color: #000000;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition-property: color;
+        width: 120px;
+        height: 40px;
+        &:hover{
+            
+            color: #2ADACC;
+            border: 3px solid #2ADACC;
+            border-radius: 6px;
+            width: 120px;
+            height: 40px;
+            
+            transition-property: color;
+        }
+    }
+}
+@media (max-width:1000px) {
+    .hat__button {
+        font-family: 'Nunito-SemiBold';
+        font-weight: 16px;
+        font-size: 11px;
+        
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #D9F7F5;
+        background-color: #000000;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition-property: color;
+        width: 82px;
+        height: 40px; 
+        &:hover{
+            
+            color: #2ADACC;
+            border: 3px solid #2ADACC;
+            border-radius: 6px;
+            width: 82px;
+            height: 40px;
+            
+            transition-property: color;
+        }
+        
+    }
+    .hat__menu {
+        
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:1260px) {
+    .main-page__ellipse-4 {
+        left: 643px;
+        width: 202.52px;
+        height: 115.77px;
+    }
+    .main-page__ellipse-3 {
+        left: 603px;
+        width: 122.52px;
+        height: 65.77px;
+    }
+    .main-page__ellipse-mega-1 {
+        left: 403px;
+        width: 122.52px;
+        height: 65.77px;
+    }
+}
+
+
+
+
+@media (max-width:890px) {
+    .main-page__ellipse-4 {
+        left: 643px;
+        width: 102.52px;
+        height: 35.77px;
+    }
+    .main-page__ellipse-3 {
+        left: 603px;
+        width: 62.52px;
+        height: 25.77px;
+    }
+    .main-page__ellipse-mega-1 {
+        left: 403px;
+        width: 62.52px;
+        height: 25.77px;
+    }
+}
+
+
+
+
+
+@media (max-width:775px) {
+    .main-page__ellipse-4 {
+        left: 1px;
+        width: 0px;
+        height: 0px;
+    }
+    .main-page__ellipse-3 {
+        left: 1px;
+        width: 0px;
+        height: 0px;
+    }
+    .main-page__ellipse-mega-1 {
+        left: 1px;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+
+
+@media (max-width:675px) {
+    .main-page__ellipse-mega-2 {
+        width: 158.04px;
+        height: 206.54px;
+        left: 191.41px;
+        top: 328.19px;
+    }
+}
+@media (max-width:410px) {
+    .main-page__ellipse-mega-2 {
+        width: 118.04px;
+        height: 166.54px;
+        left: 171.41px;
+        top: 328.19px;
+    }
+    
+    .text-title__main-title {
+       font-size: 60px;
+        
+    }
+    .text-title__text-1 {
+        
+        font-size: 25px;
+        width: 321px;
+        margin: 0 auto;
+    }
+    .text-title__text-2 {
+        width: 322px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+}
+
+// Бургер.................................................
+
+
+// Сам бургер.................................................
+@media (max-width:767px){ 
+
+    .hat__logo-img {
+     margin-left: 20px;
+     
+    }
+     body.lock {
+         overflow: hidden; // JS блокирования прокрутки во время открытого меню, бургера
+     }
+ 
+ 
+ 
+ 
+     .hat__burger {
+         display: block;
+         position: fixed;
+         width: 30px;
+         height: 20px;
+         top: 25px;
+         right: 20px;
+     }
+     .hat__burger:before,          // верхняя и нижния полоска
+     .hat__burger:after {
+         content: '';
+         background-color: #2ADACC;
+         position: absolute;
+         width: 100%;
+         height: 3px;
+         left: 0;
+         transition: all 0.3s ease 0s; // анимация при изменении на крестик
+     }
+     .hat__burger span{      // средняя полоска
+         position: absolute;
+         background-color: #2ADACC;
+         left: 0;
+         width: 100%;
+         height: 3px;
+         top: 9px;
+         transition: all 0.3s ease 0s; // анимация при изменении на крестик
+     }
+     .hat__burger:before {   // рассположение верхний полосы по верху
+         top: 0;
+     }
+     .hat__burger:after {    // рассположение нижний полосы по низу
+         bottom: 0;
+     }
+ // Сам бургер.................................................
+ 
+ 
+ 
+ // Сам бургер крестик JS.................................................
+ .hat__burger.active span {  // убираем span строку
+     transform: scale(0);
+ }
+ .hat__burger.active:before { // поварачиваем и меняем позицию before полоску
+     transform:rotate(45deg);
+     top: 9px;
+ }
+ .hat__burger.active:after { // поварачиваем и меняем позицию after полоску
+     transform:rotate(-45deg);
+     bottom: 9px;
+ } 
+ // Сам бургер крестик JS................................................. 
+ 
+ 
+ // Меню, кнопки.................................................
+     .hat__menu {
+         overflow: auto; // возможность прокрутки меню если всё не влазиет
+         position: fixed;
+         top: -100%;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: #000000;
+         padding: 70px 0px 0px 0px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;     
+         transition: all 0.3s ease 0s;   
+     }
+     .hat__button {
+         font-family: 'Nunito-SemiBold';
+         font-weight: 16px;
+         font-size: 16px;
+         line-height: 22px;
+         text-transform: uppercase;
+         color: #D9F7F5;
+         background-color: #000000;
+         margin-left: 15px;
+         margin-right: 15px;
+         transition-property: color;
+         width: 146px;
+         height: 40px;
+         margin-top: 50px;
+         &:hover{
+             
+             color: #2ADACC;
+             border: 3px solid #2ADACC;
+             border-radius: 6px;
+             width: 146px;
+             height: 40px;
+             
+             transition-property: color;
+         }
+         
+         
+     }
+     .hat__menu.active { // раскрытое меню, раскрытый бургер
+         top: 0;
+         transition: all 0.3s ease 0s;
+     }
+    
+ }
+ // Меню, кнопки.................................................
+ 
+ 
+ 
+ 
+ 
+ // Бургер.................................................
+ 

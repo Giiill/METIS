@@ -1,0 +1,117 @@
+
+.footer {
+    
+    background-color: #000305;
+    
+    
+    &__body {
+        
+         
+    }
+    &__top {
+        display: flex;
+        padding-top: 85px;
+        height: 440px;
+        justify-content: space-around;
+        
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        
+    }
+}
+.footer-top {
+
+    &__block-left {
+    }
+    
+    &__logo {
+        padding-bottom: 30px;
+    }
+
+    &__about-metis {
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135.5%;
+        color: #D9F7F5;
+        width: 274px;
+        height: 86px;
+    }
+
+    &__block-right {
+        display: flex;
+        
+        min-width: 500px;
+        justify-content: space-between;
+        
+    }
+
+    &__headline {
+        font-family: 'Nunito-Bold';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 217%;
+        text-transform: uppercase;
+        color: #2ADACC;
+        
+    }
+
+    &__list {
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 217%;
+        text-transform: capitalize;
+        color: #D9F7F5;
+        padding-top: 20px;
+        :link {
+            color: #D9F7F5;
+        }
+        :visited {
+            color: #D9F7F5;
+        }
+        :active {
+            color: #2ADACC;
+        }
+        :hover {
+            color: #2ADACC;
+        }
+    }
+    
+    &__list-1 {
+    }
+
+    &__list-2 {
+    }
+
+    &__list-3 {
+    }
+}
+
+.footer-bottom {
+
+
+    &__text {
+        font-family: 'Nunito-Regular';
+        color: #D9F7F5;
+    }
+
+    &__icon {
+        & a{
+            padding: 0 5px 0 5px;
+        }
+    }
+}
+.caps {
+    text-transform: uppercase;
+}
+
+
+
+
+

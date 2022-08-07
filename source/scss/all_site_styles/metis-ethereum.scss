@@ -1,0 +1,287 @@
+.metis-ethereum {
+    background: #00060A;
+    color: white;
+    &__body {
+        
+    }
+
+
+    &__rectangle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 140px;
+        padding-bottom: 165px;
+        flex-wrap: wrap;
+        
+    }
+  
+   
+}
+.rectangle {
+
+    &__left {
+        
+        padding-bottom: 100px;
+
+    }
+
+    &__left-title {
+        font-family: 'Poppins-SemiBold';
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 63px;
+        color: #D9F7F5;
+        padding-left: 5px;
+        
+    }
+    
+
+    &__left-description {
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27.28px;
+        padding-left: 5px;
+        padding-bottom: 40px;
+        
+        color: #D9F7F5;
+    }
+
+    &__left-icon-block {
+        display: flex;
+
+        
+    }
+
+    &__left-icon-block-left {
+        padding-right: 100px;
+       
+    }
+
+    &__left-icon-block-right {
+    }
+
+    &__right {
+        padding-left: 55px;
+        padding-bottom: 100px;
+    }
+    
+
+    &__right-table {
+        display: flex;
+        width: 640px;
+        height: 399px;
+        border: 2px solid transparent;
+        border-image: linear-gradient(#2ADACC, #171E24);
+        border-image-slice: 1;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        
+    }
+
+    &__table-collumn {
+    }
+
+    &__main-cell {
+        font-family: 'Poppins-Regular';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 155.9%;
+        color: #D9F7F5;
+        width: 189px;
+        height: 65px;
+        padding-left: 30px;
+        padding-bottom: 15px;
+        
+        border-bottom: 1px solid #202932;
+        
+        
+    }
+
+
+    &__cell {
+        font-family: 'Nunito-Regular';
+        font-weight: 500px;
+        font-size: 16px;
+        line-height: 134.9%;
+        color: #D9F7F5;
+        width: 189px;
+        height: 36px;
+        padding-left: 30px;
+        padding-top: 15px;
+        border-bottom: 1px solid #202932;
+        padding-bottom: 20px;
+        
+        
+        
+        
+        
+    }
+    &__table-grey {
+        font-family: 'Nunito-Regular';
+        border-left: 1px solid #202932;
+        border-right: 1px solid #202932;
+       
+        color: #425667;
+    }
+
+   
+}
+.span-title {
+    color: aqua;
+}
+.item {
+
+}
+.list {
+    font-family: 'Nunito-Bold';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 155.9%;
+    color: #D9F7F5;
+     li{
+        padding-bottom: 30px;
+    }
+
+    &__1 {
+        background: url('/img/metis-ethereum/icon-1.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+
+    &__2 {
+        background: url('/img/metis-ethereum/icon-2.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+
+    &__3 {
+        background: url('/img/metis-ethereum/icon-3.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+
+    &__4 {
+        background: url('/img/metis-ethereum/icon-4.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+
+    &__5 {
+        background: url('/img/metis-ethereum/icon-5.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+
+    &__6 {
+        background: url('/img/metis-ethereum/icon-6.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+
+    &__7 {
+        background: url('/img/metis-ethereum/icon-7.svg')5px 5px no-repeat;
+        padding-left: 48px;  
+    }
+}
+
+
+
+
+
+// Адаптация rectangle в разных размерах
+
+
+@media (max-width:767px) {
+    .rectangle__right-table{
+        max-width: 300px;
+        flex-wrap: wrap;
+        height: 1200px ;
+        
+    }
+    .rectangle__table-grey {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+
+
+@media (max-width:500px) {
+    .rectangle__right {
+        padding-left: 0px;
+    }
+    .rectangle__left-title {
+
+        font-size: 36px;
+        line-height: 63px;
+        color: #D9F7F5;
+        padding-left: 5px;
+        
+    }
+    .rectangle__left-description {
+        font-size: 17px;
+        line-height: 27.28px;
+        padding-left: 5px;
+        padding-bottom: 40px;
+        
+        color: #D9F7F5;
+
+    }
+    .list {
+    font-family: 'Nunito-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155.9%;
+    color: #D9F7F5;
+     li{
+        padding-bottom: 25px;
+    }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:415px) {
+    .rectangle__left-title {
+    font-size: 30px;
+    }
+    .list {
+        
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155.9%;
+    color: #D9F7F5;
+        
+         li{
+        padding-bottom: 30px;
+        }
+    }
+
+    .rectangle__left-icon-block {
+        
+    flex-wrap: wrap;
+    padding-left: 15px;
+    }
+
+
+    .rectangle__right {
+    padding-left: 0px;
+    }
+    .rectangle__right-table{
+    max-width: 200px;
+     flex-wrap: wrap;
+     height: 1200px ;
+            
+    }
+    .rectangle__table-grey {
+        border-left: none;
+        border-right: none;
+    }
+    
+}
