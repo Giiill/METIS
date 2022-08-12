@@ -1,0 +1,152 @@
+.how-metis {
+    background: #00090F;
+    color: rgb(255, 255, 255);
+   
+    &__body {
+       
+    }
+    &__title-white {
+        color: #D9F7F5;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        color: #2ADACC;
+        font-family: 'Inter-SemiBold';
+        
+    }
+    &__rectangle {
+        margin: 0 auto;
+        max-width: 1020px;
+        
+    }
+
+    &__rowspan {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        padding-bottom: 100px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 319px;
+        height: 455px;
+        border: 1px solid transparent;
+        border-image: linear-gradient(#2ADACC, #171E24);
+        border-image-slice: 1;
+        text-align: center;
+        
+    }
+}
+.card {
+
+    &__icon {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #2ADACC;
+        width: 122px;
+        height: 122px;
+        border-radius: 50%;
+    }
+
+    &__item {
+    }
+
+    &__title {
+        margin-top: 45px;
+        font-family: 'Poppins-Bold';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2ADACC;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin-top: 32px;
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+        color: #D9F7F5;
+        width: 275px;
+        text-align: start;
+        flex: 1 1 auto;
+
+    }
+
+    &__line {
+        
+        width: 274px;
+        height: 0px;
+        border: 1px solid #202932;
+        
+        
+    }
+
+    &__button {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: 'Nunito-Bold';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2ADACC;
+        background-color: #00090F;
+        width: 211px;
+        height: 40px;
+        border: 2px solid #2ADACC;
+        border-radius: 7px;
+        transition-duration: 0.2s;
+        &:hover{
+            background-color: #2ADACC; 
+            color: #00090F;
+            transition-duration: 0.3s;
+            
+            
+            
+           
+        }
+        
+    }
+}
+
+@media (max-width: 993px) {
+    .how-metis__rowspan {
+        flex-wrap: wrap;
+    }
+    .how-metis__rectangle {
+        width: 700px;
+        
+    }
+    .how-metis__card {
+        margin-bottom: 50px;
+        
+        
+    }
+}
+
+@media (max-width: 705px) {
+    .how-metis__rowspan {
+        flex-wrap: wrap;
+    }
+    .how-metis__rectangle {
+        width: 320px;
+       
+    }
+    .how-metis__card {
+        margin-bottom: 50px;
+        
+    }
+}

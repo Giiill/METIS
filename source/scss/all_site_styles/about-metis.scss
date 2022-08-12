@@ -38,6 +38,11 @@
         transform: rotate(-170.44deg);
         top: 54px;
         left: 148px;
+        animation-name: flashing;
+        animation-duration: 8s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
 
     }
 
@@ -50,6 +55,13 @@
         filter: blur(1px);
         top: 84px;
         left: 348px;
+        animation-name: flashing;
+        animation-duration: 0.9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
+        
     }
 
     &__cricket-2 {
@@ -62,6 +74,12 @@
         top: 77px;
         left: 301px;
         opacity: 0.26;
+        animation-name: flashing;
+        animation-duration: 0.7s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
     }
 
     &__cricket-3 {
@@ -73,6 +91,11 @@
         filter: blur(1px);
         top: 133px;
         left: 177px;
+        animation-name: flashing;
+        animation-duration: 0.9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
         
     }
 
@@ -85,6 +108,11 @@
         filter: blur(1px);
         top: 196px;
         left: 163px;
+        animation-name: flashing;
+        animation-duration: 0.7s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     &__cricket-5 {
@@ -96,6 +124,11 @@
         filter: blur(1px);
         top: 248px;
         left: 365px;
+        animation-name: flashing;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     &__cricket-6 {
@@ -107,6 +140,11 @@
         filter: blur(1px);
         top: 286px;
         left: 331px;
+        animation-name: flashing;
+        animation-duration: 0.9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     &__cricket-7 {
@@ -119,6 +157,11 @@
         top: 319px;
         left: 202px;
         opacity: 0.26;
+        animation-name: flashing;
+        animation-duration: 0.8s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     &__img-item-1 {
@@ -131,6 +174,7 @@
         position: absolute;
         top: 94px;
         left: 156px;
+        
     }
     &__img-item-3 {
         position: absolute;
@@ -141,6 +185,7 @@
         position: absolute;
         top: 318.02px;
         left: 199.08px;
+        
     }
     &__img-item-5 {
         position: absolute;
@@ -160,6 +205,18 @@
         
         margin: 73px 75px 73px 425px;
         
+    }
+}
+
+@keyframes flashing {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.2;
     }
 }
 

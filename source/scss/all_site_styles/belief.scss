@@ -1,0 +1,63 @@
+.belief {
+    background-color: #00090F;
+    color: white;
+
+    &__body {
+    }
+
+    &__rectangle {
+    }
+
+    &__rowspan {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__collumn-left {
+    }
+
+    &__collumn-right {
+    }
+}
+
+.collumn-left {
+
+    &__title-belief {
+        padding-bottom: 30px;
+        max-width: 565px;
+    }
+
+    &__mini-title-belief {
+        font-family: 'Poppins-Bold';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #2ADACC;
+        margin-top: 45px;
+    }
+
+    &__text-belief {
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 164.52%;
+        letter-spacing: 0.1em;
+        color: #D9F7F5;
+        max-width: 467px;
+        margin-top: 25px;
+    }
+}
+.collumn-right {
+
+    &__img-belief {
+        
+    }
+}
+.img-belief {
+
+
+    &__icon {
+        
+    }
+}

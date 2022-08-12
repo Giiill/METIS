@@ -1,0 +1,173 @@
+.use-cases {
+    background-color: #00090F;
+    
+    &__body {
+        
+    }
+
+    &__rectangle {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 300px;
+    }
+
+    &__collumn-left {
+    }
+
+    &__collumn-right {
+        display: flex;
+        justify-content: space-between;
+        max-width: 775px;
+        width: 100%;
+        flex-wrap: wrap;
+        
+        
+    }
+    @keyframes vector {
+        0% {
+            color: #2ADACC;
+        }
+        50% {
+           opacity: 0.5; 
+        }
+        100% {
+            opacity: 0.1;
+        }
+    }
+    &__vector {
+        position: absolute;
+        overflow: hidden;
+        left: 760px;
+        animation-name: vector;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+}
+.collumn-left {
+
+    &__title {
+        padding-top: 170px;
+        max-width: 301px;
+        
+    }
+
+    &__text {
+        max-width: 374px;
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 155.52%;
+        text-transform: lowercase;
+        color: #D9F7F5;
+        padding-top: 36px;
+        
+    }
+}
+.collumn-right {
+
+    &__rowspan {
+
+    }
+
+    &__card {
+        display: flex;
+        position: relative;
+        align-items: center;
+        width: 220px;
+        height: 92px;
+        background-color: #060809;
+        border: 1px solid #202932;
+        border-radius: 8px; 
+        margin-bottom: 35px;
+        
+    }
+
+    &__card-icon {
+        padding-left: 20px;
+    }
+
+    &__card-title {
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #F5F5F5;
+        padding-left: 20px;
+        width: 135px;
+    }
+}
+@media (max-width: 785px) {
+    .use-cases__collumn-right {
+        
+        max-width: 465px;
+        
+    }
+    .collumn-right__card {
+        margin-left: 30px;
+        margin-top: 20px;
+}
+}
+@media (max-width: 1400px) {
+.use-cases__collumn-right {
+    margin-top: 50px;
+}
+}
+
+
+
+
+
+// смещение вектора
+@media (max-width: 1745px) {
+    .use-cases__vector {
+        left: 560px;
+    }
+}
+@media (max-width: 1550px) {
+    .use-cases__vector {
+        left: 360px;
+    }
+}
+@media (max-width: 1400px) {
+    .use-cases__vector {
+        left: 120px;
+        top: 4000px;
+    }
+}
+@media (max-width: 1110px) {
+    .use-cases__vector {
+        left: 0px;
+        top: 4000px;
+    }
+}
+@media (max-width: 995px) {
+    .use-cases__vector {
+       
+        opacity: 0;
+        top: 0;
+    }
+}
+@media (max-width: 990px) {
+    .use-cases__vector {
+        opacity: 1;
+        left: -150px;
+        top: 4600px;
+    }
+}
+@media (max-width: 835px) {
+    .use-cases__vector {
+       
+        left: -300px;
+        top: 4600px;
+    }
+}
+@media (max-width: 761px) {
+    .use-cases__vector {
+        opacity: 0;
+        top: 0;
+        width: 0px;
+    }
+}
