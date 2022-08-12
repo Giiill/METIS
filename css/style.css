@@ -185,6 +185,14 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(100px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .main-page__ellipse-2 {
   position: absolute;
@@ -197,6 +205,14 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(200px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .main-page__ellipse-3 {
   position: absolute;
@@ -209,6 +225,14 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(150px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .main-page__ellipse-4 {
   position: absolute;
@@ -221,6 +245,14 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(200px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .main-page__ellipse-mega-1 {
   position: absolute;
@@ -233,6 +265,14 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(170px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .main-page__ellipse-mega-2 {
   position: absolute;
@@ -245,6 +285,14 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(200px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .main-page__hat {
   display: -webkit-box;
@@ -686,7 +734,7 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(120px);
   -webkit-transform: rotate(-170.44deg);
           transform: rotate(-170.44deg);
-  top: 54px;
+  top: 94px;
   left: 148px;
   -webkit-animation-name: flashing;
           animation-name: flashing;
@@ -698,6 +746,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-1 {
   position: absolute;
@@ -720,6 +776,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-2 {
   position: absolute;
@@ -743,6 +807,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-3 {
   position: absolute;
@@ -765,6 +837,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-4 {
   position: absolute;
@@ -787,6 +867,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-5 {
   position: absolute;
@@ -809,6 +897,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-6 {
   position: absolute;
@@ -831,6 +927,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__cricket-7 {
   position: absolute;
@@ -854,6 +958,14 @@ h1, h2, h3, h4, h5, h6 {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
 }
 .rectangle__img-item-1 {
   position: absolute;
