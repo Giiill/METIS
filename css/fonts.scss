@@ -68,5 +68,27 @@
           url(../fonts/Poppins-SemiBoldItalic.woff) format('woff'),
           url(../fonts/Poppins-SemiBoldItalic.woff2) format('woff2');
    }
+   @font-face {
+     font-family: 'Inter-SemiBold';
+     src: url(../fonts/Inter-SemiBold.eot);
+     src: url(../fonts/Inter-SemiBold.eot?#iefix) format('embedded-opentype'),
+          url(../fonts/Inter-SemiBold.otf) format('otf'),
+          url(../fonts/Inter-SemiBold.svg#Inter-SemiBold) format('svg'),
+          url(../fonts/Inter-SemiBold.ttf) format('truetype'),
+          url(../fonts/Inter-SemiBold.woff) format('woff'),
+          url(../fonts/Inter-SemiBold.woff2) format('woff2');
+   }
+   @font-face {
+     font-family: 'Poppins-Bold';
+     src: url(../fonts/Poppins-Bold.eot);
+     src: url(../fonts/Poppins-Bold.eot?#iefix) format('embedded-opentype'),
+          url(../fonts/Poppins-Bold.otf) format('otf'),
+          url(../fonts/Poppins-Bold.svg#Poppins-Bold) format('svg'),
+          url(../fonts/Poppins-Bold.ttf) format('truetype'),
+          url(../fonts/Poppins-Bold.woff) format('woff'),
+          url(../fonts/Poppins-Bold.woff2) format('woff2');
+   }
+   
+   
    
   

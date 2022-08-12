@@ -13,6 +13,13 @@
    flex: 1 1 auto; 
     
 }
+.title-green {
+        font-family: 'Poppins-SemiBold';
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 50px;
+        color: #2ADACC;
+}
 
 
 
@@ -48,6 +55,11 @@
 @import "../source/scss/all_site_styles/main-page.scss"; // <!-- 1 страница main-page -->
 @import "../source/scss/all_site_styles/about-metis.scss"; // <!-- 2 страница about-metis -->
 @import "../source/scss/all_site_styles/metis-ethereum.scss"; // <!-- 3 страница metis-ethereum -->
+@import "../source/scss/all_site_styles/how-metis.scss"; // <!-- 4 страница how-metis -->
+@import "../source/scss/all_site_styles/use-cases.scss"; // <!-- 5 страница use-cases -->
+@import "../source/scss/all_site_styles/belief.scss"; // <!-- 5 страница belief -->
+
+
 
 
 
