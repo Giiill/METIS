@@ -1,0 +1,63 @@
+.education {
+    background-color: black;
+    height: 1000px;
+    &__body {
+    }
+
+    &__rectangle {
+    }
+
+    &__rectangle-collumn {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__list-collumn {
+        display: flex;  
+        flex-direction: column;
+        
+    }
+    &__list-rowspan {
+        display: flex;
+        cursor: pointer;
+        margin: 10px 20px 10px 0px;
+        & :hover {
+            color: #2ADACC;
+            
+        }
+    }
+    &__img {
+        width: 35px;
+        height: 35px;
+        border: 2px solid #2ADACC;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 8px;
+        
+        
+    }
+    &__img-title {
+        display: flex;
+        align-items: center;
+        font-family: 'Nunito-Bold';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 155.9%;
+        color: #D9F7F5;
+        padding-left: 15px;
+        
+    }
+
+    &__video {
+    }
+}
+
+
