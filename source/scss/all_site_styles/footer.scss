@@ -104,8 +104,14 @@
 
     &__icon {
         & a{
-            padding: 0 5px 0 5px;
+            padding: 0 10px 0px 10px;
+            
         }
+        
+        
+        text-align: center;
+
+        
     }
 }
 .caps {
@@ -145,5 +151,12 @@
         padding-bottom: 800px;
         padding-top: 10px;
         margin: 0 auto;
+    }
+}
+@media (max-width: 620px) {
+    .footer-bottom__icon {
+        & a{
+            margin-top: 50px;
+        }
     }
 }
