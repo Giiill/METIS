@@ -185,6 +185,16 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(100px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-animation-name: firefly_page;
+          animation-name: firefly_page;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .main-page__ellipse-2 {
   position: absolute;
@@ -197,6 +207,16 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(200px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-animation-name: firefly_page;
+          animation-name: firefly_page;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .main-page__ellipse-3 {
   position: absolute;
@@ -209,6 +229,16 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(150px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-animation-name: firefly_page;
+          animation-name: firefly_page;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .main-page__ellipse-4 {
   position: absolute;
@@ -221,6 +251,16 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(200px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-animation-name: firefly_page;
+          animation-name: firefly_page;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .main-page__ellipse-mega-1 {
   position: absolute;
@@ -233,6 +273,16 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(170px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-animation-name: firefly_page;
+          animation-name: firefly_page;
+  -webkit-animation-duration: 2.7s;
+          animation-duration: 2.7s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .main-page__ellipse-mega-2 {
   position: absolute;
@@ -245,6 +295,16 @@ h1, h2, h3, h4, h5, h6 {
           filter: blur(200px);
   -webkit-transform: rotate(-41.69deg);
           transform: rotate(-41.69deg);
+  -webkit-animation-name: firefly_page;
+          animation-name: firefly_page;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .main-page__hat {
   display: -webkit-box;
@@ -301,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 22px;
   text-transform: uppercase;
   color: #D9F7F5;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
   margin-left: 15px;
   margin-right: 15px;
   -webkit-transition-property: color;
@@ -310,13 +370,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 .hat__button:hover {
-  color: #2ADACC;
-  border: 3px solid #2ADACC;
-  border-radius: 6px;
-  width: 146px;
-  height: 40px;
-  -webkit-transition-property: color;
-  transition-property: color;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 1px 2px 4px 0px rgba(0, 255, 255, 0.7), 2px 4px 8px 0px rgba(0, 255, 255, 0.7), 2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+          box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 1px 2px 4px 0px rgba(0, 255, 255, 0.7), 2px 4px 8px 0px rgba(0, 255, 255, 0.7), 2px 4px 16px 0px rgba(0, 255, 255, 0.7);
 }
 
 .text-title__main-title {
@@ -347,8 +402,8 @@ h1, h2, h3, h4, h5, h6 {
 .button-next__body {
   background-color: #2ADACC;
   text-align: center;
-  width: 146px;
-  height: 42px;
+  width: 226px;
+  height: 62px;
   border-radius: 5px;
   margin-top: 32px;
   text-transform: uppercase;
@@ -356,10 +411,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #00090F;
   line-height: 22px;
-  font-size: 16px;
+  font-size: 24px;
   margin-bottom: 100px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.button-next__body:hover {
+  -webkit-box-shadow: -3px 5px 5px 0px rgba(0, 255, 255, 0.7), 5px -5px 15px -5px rgba(0, 255, 255, 0.7), 2px 4px 8px 5px rgba(0, 255, 255, 0.7), 0px 0px 16px 5px rgba(0, 255, 255, 0.7);
+          box-shadow: -3px 5px 5px 0px rgba(0, 255, 255, 0.7), 5px -5px 15px -5px rgba(0, 255, 255, 0.7), 2px 4px 8px 5px rgba(0, 255, 255, 0.7), 0px 0px 16px 5px rgba(0, 255, 255, 0.7);
 }
 
 @media (max-width: 1625px) {
@@ -396,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 22px;
     text-transform: uppercase;
     color: #D9F7F5;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
     margin-left: 15px;
     margin-right: 15px;
     -webkit-transition-property: color;
@@ -422,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 22px;
     text-transform: uppercase;
     color: #D9F7F5;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
     margin-left: 15px;
     margin-right: 15px;
     -webkit-transition-property: color;
@@ -634,7 +693,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 22px;
     text-transform: uppercase;
     color: #D9F7F5;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
     margin-left: 15px;
     margin-right: 15px;
     -webkit-transition-property: color;
@@ -657,6 +716,28 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+  }
+}
+@-webkit-keyframes firefly_page {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1.2;
+  }
+}
+@keyframes firefly_page {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1.2;
   }
 }
 .about-metis {
@@ -2073,9 +2154,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 0px;
   }
 }
+@media (max-width: 400px) {
+  .collumn-left__title {
+    padding-left: 30px;
+  }
+
+  .collumn-left__text {
+    padding-left: 30px;
+  }
+}
 .belief {
   background-color: #00090F;
   color: white;
+}
+.belief__rectangle {
+  padding-bottom: 300px;
 }
 .belief__rowspan {
   display: -webkit-box;
@@ -2104,10 +2197,74 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 164.52%;
   letter-spacing: 0.1em;
   color: #D9F7F5;
-  max-width: 467px;
+  max-width: 677px;
   margin-top: 25px;
 }
 
+.collumn-right__mini-title-belief {
+  font-family: "Poppins-Bold";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #2ADACC;
+  margin-top: 0px;
+}
+.collumn-right__text-belief {
+  font-family: "Nunito-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164.52%;
+  letter-spacing: 0.1em;
+  color: #D9F7F5;
+  max-width: 697px;
+  margin-top: 25px;
+}
+
+@media (max-width: 1400px) {
+  .collumn-right__mini-title-belief {
+    margin-top: 59px;
+  }
+}
+@media (max-width: 992px) {
+  .collumn-right__mini-title-belief {
+    margin-top: 0px;
+    padding-left: 70px;
+  }
+
+  .collumn-right__text-belief {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 800px) {
+  .belief__rowspan {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .collumn-right__mini-title-belief {
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+
+  .collumn-right__text-belief {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 740px) {
+  .belief__rowspan {
+    text-align: center;
+  }
+
+  .collumn-left__title-belief {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 455px) {
+  .img-belief__icon {
+    width: 90%;
+  }
+}
 .education {
   background-color: black;
   height: 1000px;
@@ -2389,8 +2546,11 @@ details[open] summary ~ * {
   font-family: "Nunito-Regular";
   color: #D9F7F5;
 }
+.footer-bottom__icon {
+  text-align: center;
+}
 .footer-bottom__icon a {
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0px 10px;
 }
 
 .caps {
@@ -2423,5 +2583,10 @@ details[open] summary ~ * {
     padding-bottom: 800px;
     padding-top: 10px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 620px) {
+  .footer-bottom__icon a {
+    margin-top: 50px;
   }
 }
