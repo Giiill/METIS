@@ -1,6 +1,6 @@
 .about-metis {
     background-color: #00090F;
-    
+    padding-bottom: 150px;
     &__body {
         
         
@@ -22,7 +22,7 @@
         
     }
 }
-.rectangle {
+.about-metis {
 
     &__img {
         
@@ -223,10 +223,10 @@
 
 
 
-// Адаптация rectangle в разных размерах
+// Адаптация  в разных размерах
 
 @media (max-width:1400px) {
-    .rectangle__text {
+    .about-metis__text {
         margin: 73px 75px 73px 285px;
         font-size: 18px;
     }
@@ -238,7 +238,7 @@
 
 
 @media (max-width:992px) {
-.rectangle__text {
+.about-metis__text {
 margin: 53px 75px 73px 155px;
 font-size: 18px;
 min-width: 407px;
@@ -246,7 +246,7 @@ min-width: 407px;
 .about-metis__rectangle {
 width: 750px;     
 }
-.rectangle__ellipse-main{
+.about-metis__ellipse-main{
     position: absolute;
     width: 224.76px;
     height: 273.17px;
@@ -256,7 +256,7 @@ width: 750px;
     top: 54px;
     left: 68px;
 }
-.rectangle__cricket-1 {
+.about-metis__cricket-1 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -266,7 +266,7 @@ width: 750px;
     top: 84px;
     left: 238px;
 }
-.rectangle__cricket-2 {
+.about-metis__cricket-2 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -277,7 +277,7 @@ width: 750px;
     left: 197px;
     opacity: 0.26;
 }
-.rectangle__cricket-3 {
+.about-metis__cricket-3 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -288,7 +288,7 @@ width: 750px;
     left: 67px;
     
 }
-.rectangle__cricket-4 {
+.about-metis__cricket-4 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -298,7 +298,7 @@ width: 750px;
     top: 196px;
     left: 53px;
 }
-.rectangle__cricket-5 {
+.about-metis__cricket-5 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -308,7 +308,7 @@ width: 750px;
     top: 248px;
     left: 255px;
 }
-.rectangle__cricket-6 {
+.about-metis__cricket-6 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -318,7 +318,7 @@ width: 750px;
     top: 286px;
     left: 221px;
 }
-.rectangle__cricket-7 {
+.about-metis__cricket-7 {
     position: absolute;
     width: 3px;
     height: 3px;
@@ -329,28 +329,28 @@ width: 750px;
     left: 92px;
     opacity: 0.26;
 }
-.rectangle__img-item-1 {
+.about-metis__img-item-1 {
     position: absolute;
     top: 52.07px;
     left: 40.99px;
 }
-.rectangle__img-item-2 {
+.about-metis__img-item-2 {
     text-align: center;
     position: absolute;
     top: 94px;
     left: 46px;
 }
-.rectangle__img-item-3 {
+.about-metis__img-item-3 {
     position: absolute;
     top: 280.19px;
     left: 177.57px;
 }
-.rectangle__img-item-4 {
+.about-metis__img-item-4 {
     position: absolute;
     top: 318.02px;
     left: 89.08px;
 }
-.rectangle__img-item-5 {
+.about-metis__img-item-5 {
     position: absolute;
     top: 352px;
     left: -3px;
@@ -369,23 +369,24 @@ width: 750px;
 
 
 
-@media (max-width:762px) {
-    .rectangle__text {
+@media (max-width:766px) {
+    .about-metis__text {
         margin: 503px 75px 73px 100px;
         font-size: 18px;
         min-width: 407px;
     }
-    .rectangle__img {
+    .about-metis__img {
         margin-left: 0px;
     }
 }
+
 
 @media (max-width:767px) {
     .about-metis__rectangle {
         width: 600px;
         height: 900px; 
     }
-    .rectangle__ellipse-main{
+    .about-metis__ellipse-main{
         position: absolute;
         width: 224.76px;
         height: 273.17px;
@@ -395,7 +396,7 @@ width: 750px;
         top: 54px;
         left: 228px;
     }
-    .rectangle__cricket-1 {
+    .about-metis__cricket-1 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -405,7 +406,7 @@ width: 750px;
         top: 84px;
         left: 398px;
     }
-    .rectangle__cricket-2 {
+    .about-metis__cricket-2 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -416,7 +417,7 @@ width: 750px;
         left: 357px;
         opacity: 0.26;
     }
-    .rectangle__cricket-3 {
+    .about-metis__cricket-3 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -427,7 +428,7 @@ width: 750px;
         left: 227px;
         
     }
-    .rectangle__cricket-4 {
+    .about-metis__cricket-4 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -437,7 +438,7 @@ width: 750px;
         top: 196px;
         left: 213px;
     }
-    .rectangle__cricket-5 {
+    .about-metis__cricket-5 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -447,7 +448,7 @@ width: 750px;
         top: 248px;
         left: 415px;
     }
-    .rectangle__cricket-6 {
+    .about-metis__cricket-6 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -457,7 +458,7 @@ width: 750px;
         top: 286px;
         left: 381px;
     }
-    .rectangle__cricket-7 {
+    .about-metis__cricket-7 {
         position: absolute;
         width: 3px;
         height: 3px;
@@ -468,28 +469,28 @@ width: 750px;
         left: 252px;
         opacity: 0.26;
     }
-    .rectangle__img-item-1 {
+    .about-metis__img-item-1 {
         position: absolute;
         top: 52.07px;
         left: 200.99px;
     }
-    .rectangle__img-item-2 {
+    .about-metis__img-item-2 {
         text-align: center;
         position: absolute;
         top: 94px;
         left: 206px;
     }
-    .rectangle__img-item-3 {
+    .about-metis__img-item-3 {
         position: absolute;
         top: 280.19px;
         left: 337.57px;
     }
-    .rectangle__img-item-4 {
+    .about-metis__img-item-4 {
         position: absolute;
         top: 318.02px;
         left: 249.08px;
     }
-    .rectangle__img-item-5 {
+    .about-metis__img-item-5 {
         position: absolute;
         top: 352px;
         left: 157px;
@@ -507,7 +508,7 @@ width: 750px;
     }
     
     @media (max-width:610px) {
-        .rectangle__text {
+        .about-metis__text {
             margin: 453px 75px 73px 60px;
             font-size: 18px;
             min-width: 307px;
@@ -519,7 +520,7 @@ width: 750px;
 
 
     @media (max-width:610px) {
-        .rectangle__ellipse-main{
+        .about-metis__ellipse-main{
             position: absolute;
             width: 224.76px;
             height: 273.17px;
@@ -529,7 +530,7 @@ width: 750px;
             top: 54px;
             left: 128px;
         }
-        .rectangle__cricket-1 {
+        .about-metis__cricket-1 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -539,7 +540,7 @@ width: 750px;
             top: 84px;
             left: 298px;
         }
-        .rectangle__cricket-2 {
+        .about-metis__cricket-2 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -550,7 +551,7 @@ width: 750px;
             left: 257px;
             opacity: 0.26;
         }
-        .rectangle__cricket-3 {
+        .about-metis__cricket-3 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -561,7 +562,7 @@ width: 750px;
             left: 127px;
             
         }
-        .rectangle__cricket-4 {
+        .about-metis__cricket-4 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -571,7 +572,7 @@ width: 750px;
             top: 196px;
             left: 113px;
         }
-        .rectangle__cricket-5 {
+        .about-metis__cricket-5 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -581,7 +582,7 @@ width: 750px;
             top: 248px;
             left: 315px;
         }
-        .rectangle__cricket-6 {
+        .about-metis__cricket-6 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -591,7 +592,7 @@ width: 750px;
             top: 286px;
             left: 281px;
         }
-        .rectangle__cricket-7 {
+        .about-metis__cricket-7 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -602,28 +603,28 @@ width: 750px;
             left: 152px;
             opacity: 0.26;
         }
-        .rectangle__img-item-1 {
+        .about-metis__img-item-1 {
             position: absolute;
             top: 52.07px;
             left: 100.99px;
         }
-        .rectangle__img-item-2 {
+        .about-metis__img-item-2 {
             text-align: center;
             position: absolute;
             top: 94px;
             left: 106px;
         }
-        .rectangle__img-item-3 {
+        .about-metis__img-item-3 {
             position: absolute;
             top: 280.19px;
             left: 237.57px;
         }
-        .rectangle__img-item-4 {
+        .about-metis__img-item-4 {
             position: absolute;
             top: 318.02px;
             left: 149.08px;
         }
-        .rectangle__img-item-5 {
+        .about-metis__img-item-5 {
             position: absolute;
             top: 352px;
             left: 57px;
@@ -643,7 +644,7 @@ width: 750px;
     
     
    
-        .rectangle__text {
+        .about-metis__text {
             margin: 453px 75px 73px 20px;
             font-size: 15px;
             min-width: 257px;
@@ -651,7 +652,7 @@ width: 750px;
     
     
     
-        .rectangle__ellipse-main{
+        .about-metis__ellipse-main{
             position: absolute;
             width: 224.76px;
             height: 273.17px;
@@ -663,7 +664,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-1 {
+        .about-metis__cricket-1 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -675,7 +676,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-2 {
+        .about-metis__cricket-2 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -688,7 +689,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-3 {
+        .about-metis__cricket-3 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -701,7 +702,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-4 {
+        .about-metis__cricket-4 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -713,7 +714,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-5 {
+        .about-metis__cricket-5 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -725,7 +726,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-6 {
+        .about-metis__cricket-6 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -737,7 +738,7 @@ width: 750px;
         }
         
         
-        .rectangle__cricket-7 {
+        .about-metis__cricket-7 {
             position: absolute;
             width: 3px;
             height: 3px;
@@ -750,14 +751,14 @@ width: 750px;
         }
         
         
-        .rectangle__img-item-1 {
+        .about-metis__img-item-1 {
             position: absolute;
             top: 52.07px;
             left: 38.99px;
         }
         
         
-        .rectangle__img-item-2 {
+        .about-metis__img-item-2 {
             text-align: center;
             position: absolute;
             top: 94px;
@@ -765,21 +766,21 @@ width: 750px;
         }
         
         
-        .rectangle__img-item-3 {
+        .about-metis__img-item-3 {
             position: absolute;
             top: 280.19px;
             left: 165.57px;
         }
         
         
-        .rectangle__img-item-4 {
+        .about-metis__img-item-4 {
             position: absolute;
             top: 318.02px;
             left: 77.08px;
         }
         
         
-        .rectangle__img-item-5 {
+        .about-metis__img-item-5 {
             position: absolute;
             top: 352px;
             left: -15px;

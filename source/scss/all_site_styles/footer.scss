@@ -152,11 +152,7 @@
         padding-top: 10px;
         margin: 0 auto;
     }
-}
-@media (max-width: 620px) {
-    .footer-bottom__icon {
-        & a{
-            margin-top: 50px;
-        }
+    .footer-top__list {
+        padding-bottom: 40px;
     }
 }

@@ -1,5 +1,5 @@
 .main-page {
-      
+      padding-bottom: 200px;
 
 
     
@@ -65,7 +65,7 @@
         top: 535.7px;
         
         background: #3ABFFF;
-        filter: blur(200px);
+        filter: blur(180px);
         transform: rotate(-41.69deg);
         animation-name: firefly_page;
         animation-duration: 1s;
@@ -98,7 +98,7 @@
 
         background: conic-gradient(from 197.1deg at 50% 50%, #6972CD 0deg, #FF00FF 360deg);
 
-        filter: blur(200px);
+        filter: blur(140px);
         transform: rotate(-41.69deg);
 
         animation-name: firefly_page;
@@ -156,7 +156,7 @@
     }
 
     &__menu {
-        z-index: 2;
+        z-index: 5;
         
     }
 
@@ -327,7 +327,7 @@
     }
     .hat__menu {
         
-        width: 100%;
+        
     }
 }
 
@@ -434,6 +434,12 @@
     .main-page__text-title {
         padding-top: 113px;
 
+    }
+}
+@media (min-width:767px) {
+    .hat__menu {
+        position: fixed;
+        right: 10px;
     }
 }
 // Бургер.................................................

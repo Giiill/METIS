@@ -1,6 +1,6 @@
 .metis-ethereum {
-    background: #00060A;
-    color: white;
+    background-color: #00090F;
+   
     &__body {
         
     }
@@ -18,7 +18,7 @@
   
    
 }
-.rectangle {
+.metis-ethereum {
 
     &__left {
         
@@ -143,8 +143,12 @@
     font-size: 28px;
     line-height: 155.9%;
     color: #D9F7F5;
+    
+    
+    
      li{
         padding-bottom: 30px;
+        
     }
 
     &__1 {
@@ -187,17 +191,17 @@
 
 
 
-// Адаптация rectangle в разных размерах
+// Адаптация  в разных размерах
 
 
 @media (max-width:767px) {
-    .rectangle__right-table{
+    .metis-ethereum__right-table{
         max-width: 300px;
         flex-wrap: wrap;
         height: 1200px ;
         
     }
-    .rectangle__table-grey {
+    .metis-ethereum__table-grey {
         border-left: none;
         border-right: none;
     }
@@ -206,10 +210,10 @@
 
 
 @media (max-width:500px) {
-    .rectangle__right {
+    .metis-ethereum__right {
         padding-left: 0px;
     }
-    .rectangle__left-title {
+    .metis-ethereum__left-title {
 
         font-size: 36px;
         line-height: 63px;
@@ -217,7 +221,7 @@
         padding-left: 5px;
         
     }
-    .rectangle__left-description {
+    .metis-ethereum__left-description {
         font-size: 17px;
         line-height: 27.28px;
         padding-left: 5px;
@@ -248,7 +252,7 @@
 
 
 @media (max-width:415px) {
-    .rectangle__left-title {
+    .metis-ethereum__left-title {
     font-size: 30px;
     }
     .list {
@@ -263,23 +267,23 @@
         }
     }
 
-    .rectangle__left-icon-block {
+    .metis-ethereum__left-icon-block {
         
     flex-wrap: wrap;
     padding-left: 15px;
     }
 
 
-    .rectangle__right {
+    .metis-ethereum__right {
     padding-left: 0px;
     }
-    .rectangle__right-table{
+    .metis-ethereum__right-table{
     max-width: 200px;
      flex-wrap: wrap;
      height: 1200px ;
             
     }
-    .rectangle__table-grey {
+    .metis-ethereum__table-grey {
         border-left: none;
         border-right: none;
     }

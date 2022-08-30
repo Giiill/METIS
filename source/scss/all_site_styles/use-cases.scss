@@ -46,7 +46,7 @@
         animation-direction: alternate;
     }
 }
-.collumn-left {
+.use-cases {
 
     &__title {
         padding-top: 170px;
@@ -66,7 +66,7 @@
         
     }
 }
-.collumn-right {
+.use-cases {
 
     &__rowspan {
 
@@ -105,7 +105,7 @@
         max-width: 465px;
         
     }
-    .collumn-right__card {
+    .use-cases__card {
         margin-left: 30px;
         margin-top: 20px;
 }
@@ -171,11 +171,12 @@
         width: 0px;
     }
 }
+// смещение вектора
 @media (max-width: 400px) {
-    .collumn-left__title {
+    .use-cases__title {
         padding-left: 30px;
     }
-    .collumn-left__text {
+    .use-cases__text {
         padding-left: 30px;
     }
 }
