@@ -1,6 +1,6 @@
 .how-metis {
     background: #00090F;
-    padding-bottom: 220px;
+    padding-bottom: 400px;
    
     &__body {
        
@@ -18,17 +18,40 @@
         
     }
     &__rectangle {
+        position: relative;
         margin: 0 auto;
         max-width: 1020px;
+        
+    }
+    &__ellipse-1 {
+        position: absolute;
+        width: 416px;
+        height: 168px;
+        top: 300px;
+        left: 698.82px;;
+        background: conic-gradient(from 180.31deg at 48.29% -142.57%, #6972CD 0deg, #00FFBB 327.28deg, #6972CD 360deg);
+        filter: blur(120px);
+        transform: rotate(-30deg);
+        
+    }
+    &__ellipse-2 {
+        position: absolute;
+        width: 450.95px;
+        height: 445.97px;
+        left: 0px;
+        top: 77.86px;
+
+        background: conic-gradient(from 1.34deg at 60.23% 59.08%, #00090F -48.1deg, rgba(255, 0, 255, 0.1) 8.51deg, #7982ee 74.14deg, #b755c0 237.28deg, #00090F 311.9deg, rgba(255, 0, 255, 0.1) 368.51deg);
+        filter: blur(200px);
+        transform: rotate(62.74deg);
         
     }
 
     &__rowspan {
         margin-top: 60px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         
-
         padding-bottom: 100px;
     }
 
@@ -42,6 +65,8 @@
         border-image: linear-gradient(#2ADACC, #171E24);
         border-image-slice: 1;
         text-align: center;
+        background: #0C1013;
+        z-index: 1;
         
     }
 }
@@ -150,3 +175,58 @@
         
     }
 }
+
+@media (max-width: 1300px) {
+    .how-metis__ellipse-1 {
+        width: 216px; 
+    }
+}
+@media (max-width: 1300px) {
+    .how-metis__ellipse-1 {
+        left: 498.82px;
+    }
+}
+@media (max-width: 795px) {
+    .how-metis__ellipse-1 {
+        width: 166px;
+        height: 138px;
+        top: 700px;
+        left: 198.82px;
+        
+    }
+}
+@media (max-width: 705px) {
+    .how-metis__ellipse-1 {
+        top: 900px;
+        left: 98.82px;
+        background: conic-gradient(from 180.31deg at 48.29% -142.57%, #6972CD 0deg, #00FFBB 327.28deg, #6972CD 360deg);
+        filter: blur(120px);
+        
+    }
+    .how-metis__ellipse-2 {
+        
+        width: 300.95px;
+        height: 445.97px;
+        left: 0px;
+        top: 77.86px;
+
+        
+    }
+}
+
+@media (max-width: 520px) {
+    .how-metis__ellipse-2 {
+       
+        width: 330.95px;
+        height: 245.97px;
+        left: -30px;
+        top: 77.86px;
+
+        background: conic-gradient(from 1.34deg at 60.23% 59.08%, #00090F -48.1deg, rgba(255, 0, 255, 0.1) 8.51deg, #7982ee 74.14deg, #b755c0 237.28deg, #00090F 311.9deg, rgba(255, 0, 255, 0.1) 368.51deg);
+        filter: blur(100px);
+        transform: rotate(120.74deg);
+    }
+}
+
+
+

@@ -1,7 +1,6 @@
 
 .footer {
-    
-    background-color: #000305;
+    background: #00090F;
     
     
     &__body {
@@ -152,7 +151,11 @@
         padding-top: 10px;
         margin: 0 auto;
     }
-    .footer-top__list {
-        padding-bottom: 40px;
+}
+@media (max-width: 620px) {
+    .footer-bottom__icon {
+        & a{
+            margin-top: 50px;
+        }
     }
 }

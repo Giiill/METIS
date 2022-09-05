@@ -1,7 +1,6 @@
 .belief {
-    background-color: #00090F;
-    color: white;
-
+    background: #00090F;
+    padding-bottom: 200px;
     &__body {
     }
 
@@ -13,7 +12,7 @@
         display: flex;
         justify-content: space-around;
     }
-    
+
     &__collumn-left {
     }
 
@@ -21,15 +20,15 @@
     }
 }
 
-.belief {
+.collumn-left {
 
-    &__title {
+    &__title-belief {
         padding-bottom: 30px;
         max-width: 565px;
        
     }
 
-    &__mini-title {
+    &__mini-title-belief {
         font-family: 'Poppins-Bold';
         font-weight: 700;
         font-size: 20px;
@@ -39,7 +38,7 @@
         margin-top: 45px;
     }
 
-    &__text {
+    &__text-belief {
         font-family: 'Nunito-Regular';
         font-weight: 400;
         font-size: 16px;
@@ -50,12 +49,12 @@
         margin-top: 25px;
     }
 }
-.belief {
+.collumn-right {
 
-    &__img {
+    &__img-belief {
       
     }
-    &__mini-title-right {
+    &__mini-title-belief {
         font-family: 'Poppins-Bold';
         font-weight: 700;
         font-size: 20px;
@@ -64,7 +63,7 @@
         color: #2ADACC;
         margin-top: 0px;
     }
-    &__text-right {
+    &__text-belief {
         font-family: 'Nunito-Regular';
         font-weight: 400;
         font-size: 16px;
@@ -75,7 +74,7 @@
         margin-top: 25px;
     }
 }
-.img {
+.img-belief {
 
 
     &__icon {
@@ -84,17 +83,17 @@
  
 }
 @media (max-width: 1400px) {
-    .belief__mini-title-right {
+    .collumn-right__mini-title-belief {
         margin-top: 59px;
     }
    
 }
 @media (max-width: 992px) {
-    .belief__mini-title-right {
+    .collumn-right__mini-title-belief {
         margin-top: 0px;
         padding-left: 70px;
     }
-    .belief__text-right {
+    .collumn-right__text-belief {
         padding-left: 70px;
     }
    
@@ -103,11 +102,11 @@
    .belief__rowspan {
     flex-wrap: wrap;
    }
-   .belief__mini-title-right {
+   .collumn-right__mini-title-belief {
     margin-top: 0px;
     padding-left: 0px;
 }
-.belief__text-right {
+.collumn-right__text-belief {
     padding-left: 0px;
     }  
 }
@@ -116,7 +115,7 @@
         
         text-align: center;
        }
-       .belief__title {
+       .collumn-left__title-belief {
         margin: 0 auto;
        }
  }

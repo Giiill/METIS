@@ -1,6 +1,6 @@
 .metis-ethereum {
-    background-color: #00090F;
-   
+    background: #00090F;
+    padding-bottom: 100px;
     &__body {
         
     }
@@ -18,11 +18,12 @@
   
    
 }
-.metis-ethereum {
+.rectangle {
 
     &__left {
         
         padding-bottom: 100px;
+        
 
     }
 
@@ -143,12 +144,8 @@
     font-size: 28px;
     line-height: 155.9%;
     color: #D9F7F5;
-    
-    
-    
      li{
         padding-bottom: 30px;
-        
     }
 
     &__1 {
@@ -191,17 +188,17 @@
 
 
 
-// Адаптация  в разных размерах
+// Адаптация rectangle в разных размерах
 
 
 @media (max-width:767px) {
-    .metis-ethereum__right-table{
+    .rectangle__right-table{
         max-width: 300px;
         flex-wrap: wrap;
         height: 1200px ;
         
     }
-    .metis-ethereum__table-grey {
+    .rectangle__table-grey {
         border-left: none;
         border-right: none;
     }
@@ -210,10 +207,10 @@
 
 
 @media (max-width:500px) {
-    .metis-ethereum__right {
+    .rectangle__right {
         padding-left: 0px;
     }
-    .metis-ethereum__left-title {
+    .rectangle__left-title {
 
         font-size: 36px;
         line-height: 63px;
@@ -221,7 +218,7 @@
         padding-left: 5px;
         
     }
-    .metis-ethereum__left-description {
+    .rectangle__left-description {
         font-size: 17px;
         line-height: 27.28px;
         padding-left: 5px;
@@ -252,7 +249,7 @@
 
 
 @media (max-width:415px) {
-    .metis-ethereum__left-title {
+    .rectangle__left-title {
     font-size: 30px;
     }
     .list {
@@ -267,23 +264,23 @@
         }
     }
 
-    .metis-ethereum__left-icon-block {
+    .rectangle__left-icon-block {
         
     flex-wrap: wrap;
     padding-left: 15px;
     }
 
 
-    .metis-ethereum__right {
+    .rectangle__right {
     padding-left: 0px;
     }
-    .metis-ethereum__right-table{
+    .rectangle__right-table{
     max-width: 200px;
      flex-wrap: wrap;
      height: 1200px ;
             
     }
-    .metis-ethereum__table-grey {
+    .rectangle__table-grey {
         border-left: none;
         border-right: none;
     }

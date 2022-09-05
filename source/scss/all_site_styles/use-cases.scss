@@ -1,5 +1,6 @@
 .use-cases {
-    background-color: #00090F;
+    background: #00090F;
+    padding-bottom: 200px;
     
     &__body {
         
@@ -46,7 +47,7 @@
         animation-direction: alternate;
     }
 }
-.use-cases {
+.collumn-left {
 
     &__title {
         padding-top: 170px;
@@ -66,7 +67,7 @@
         
     }
 }
-.use-cases {
+.collumn-right {
 
     &__rowspan {
 
@@ -105,7 +106,7 @@
         max-width: 465px;
         
     }
-    .use-cases__card {
+    .collumn-right__card {
         margin-left: 30px;
         margin-top: 20px;
 }
@@ -171,12 +172,11 @@
         width: 0px;
     }
 }
-// смещение вектора
 @media (max-width: 400px) {
-    .use-cases__title {
+    .collumn-left__title {
         padding-left: 30px;
     }
-    .use-cases__text {
+    .collumn-left__text {
         padding-left: 30px;
     }
 }
