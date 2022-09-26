@@ -1,6 +1,6 @@
 .about-metis {
     background: #00090F;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     
     &__body {
         
@@ -789,3 +789,9 @@ width: 750px;
 
  }
 
+ @media (max-width: 992px) {
+    .about-metis {
+        padding-bottom: 0px;
+        margin-bottom: -50px;
+    }
+   }

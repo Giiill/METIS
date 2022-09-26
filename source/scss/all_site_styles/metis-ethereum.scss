@@ -1,6 +1,6 @@
 .metis-ethereum {
     background: #00090F;
-    padding-bottom: 100px;
+    
     &__body {
         
     }
@@ -286,3 +286,9 @@
     }
     
 }
+@media (max-width: 992px) {
+    .metis-ethereum {
+        padding-bottom: 0px;
+        margin-bottom: -50px;
+    }
+   }

@@ -1,7 +1,8 @@
 .how-metis {
     background: #00090F;
-    padding-bottom: 400px;
+    padding-bottom: 100px;
    
+
     &__body {
        
     }
@@ -227,6 +228,11 @@
         transform: rotate(120.74deg);
     }
 }
-
+@media (max-width: 992px) {
+    .how-metis {
+        padding-bottom: 0px;
+        margin-bottom: -100px;
+    }
+   }
 
 

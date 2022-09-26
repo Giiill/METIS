@@ -1,6 +1,6 @@
 .belief {
     background: #00090F;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     &__body {
     }
 
@@ -52,6 +52,10 @@
 .collumn-right {
 
     &__img-belief {
+      & img {
+        padding: 35px;
+        overflow: hidden;
+      }
       
     }
     &__mini-title-belief {

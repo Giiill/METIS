@@ -1,6 +1,6 @@
 .use-cases {
     background: #00090F;
-    padding-bottom: 200px;
+    
     
     &__body {
         
@@ -181,3 +181,9 @@
     }
 }
 
+@media (max-width: 992px) {
+    .use-cases {
+        padding-bottom: 0px;
+        margin-bottom: -200px;
+    }
+   }
