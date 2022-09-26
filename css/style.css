@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-page {
   background: #00090F;
-  padding-bottom: 300px;
+  height: 100vh;
 }
 .main-page__body {
   margin: 0 auto;
@@ -421,6 +421,8 @@ h1, h2, h3, h4, h5, h6 {
 .button-next__body:hover {
   -webkit-box-shadow: -3px 5px 5px 0px rgba(0, 255, 255, 0.7), 5px -5px 15px -5px rgba(0, 255, 255, 0.7), 2px 4px 8px 5px rgba(0, 255, 255, 0.7), 0px 0px 16px 5px rgba(0, 255, 255, 0.7);
           box-shadow: -3px 5px 5px 0px rgba(0, 255, 255, 0.7), 5px -5px 15px -5px rgba(0, 255, 255, 0.7), 2px 4px 8px 5px rgba(0, 255, 255, 0.7), 0px 0px 16px 5px rgba(0, 255, 255, 0.7);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 1625px) {
@@ -744,7 +746,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about-metis {
   background: #00090F;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .about-metis__body {
   padding-top: 209px;
@@ -1616,9 +1618,14 @@ h1, h2, h3, h4, h5, h6 {
     left: -15px;
   }
 }
+@media (max-width: 992px) {
+  .about-metis {
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+  }
+}
 .metis-ethereum {
   background: #00090F;
-  padding-bottom: 100px;
 }
 .metis-ethereum__rectangle {
   display: -webkit-box;
@@ -1842,9 +1849,15 @@ h1, h2, h3, h4, h5, h6 {
     border-right: none;
   }
 }
+@media (max-width: 992px) {
+  .metis-ethereum {
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+  }
+}
 .how-metis {
   background: #00090F;
-  padding-bottom: 400px;
+  padding-bottom: 100px;
 }
 .how-metis__title-white {
   color: #D9F7F5;
@@ -2061,9 +2074,14 @@ h1, h2, h3, h4, h5, h6 {
             transform: rotate(120.74deg);
   }
 }
+@media (max-width: 992px) {
+  .how-metis {
+    padding-bottom: 0px;
+    margin-bottom: -100px;
+  }
+}
 .use-cases {
   background: #00090F;
-  padding-bottom: 200px;
 }
 .use-cases__rectangle {
   display: -webkit-box;
@@ -2240,9 +2258,15 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 30px;
   }
 }
+@media (max-width: 992px) {
+  .use-cases {
+    padding-bottom: 0px;
+    margin-bottom: -200px;
+  }
+}
 .belief {
   background: #00090F;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 .belief__rectangle {
   padding-bottom: 300px;
@@ -2278,6 +2302,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 25px;
 }
 
+.collumn-right__img-belief img {
+  padding: 35px;
+  overflow: hidden;
+}
 .collumn-right__mini-title-belief {
   font-family: "Poppins-Bold";
   font-weight: 700;
