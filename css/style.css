@@ -572,6 +572,12 @@ h1, h2, h3, h4, h5, h6 {
     top: 328.19px;
   }
 }
+@media (max-width: 700px) {
+  .main-page__text-title {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 @media (max-width: 410px) {
   .main-page__ellipse-mega-2 {
     width: 118.04px;
@@ -2027,6 +2033,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 50px;
   }
 }
+@media (max-width: 700px) {
+  .how-metis__title {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 @media (max-width: 1300px) {
   .how-metis__ellipse-1 {
     width: 216px;
@@ -2365,6 +2377,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
   }
 }
+@media (max-width: 700px) {
+  .belief__rowspan {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 @media (max-width: 455px) {
   .img-belief__icon {
     width: 90%;
@@ -2572,6 +2590,12 @@ details[open] summary ~ * {
     top: 1px;
   }
 }
+@media (max-width: 800px) {
+  .questions__list-questions {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 .footer {
   background: #00090F;
 }
@@ -2682,6 +2706,10 @@ details[open] summary ~ * {
     margin: 0 auto;
     margin-top: 50px;
   }
+
+  .footer-bottom__text {
+    padding-left: 25px;
+  }
 }
 @media (max-width: 520px) {
   .footer__top {
@@ -2690,9 +2718,8 @@ details[open] summary ~ * {
     padding-top: 10px;
     margin: 0 auto;
   }
-}
-@media (max-width: 620px) {
-  .footer-bottom__icon a {
-    margin-top: 50px;
+
+  .footer-bottom__text {
+    font-size: 12px;
   }
 }
