@@ -406,6 +406,13 @@
         top: 328.19px;
     }
 }
+@media (max-width: 700px) {
+    .main-page__text-title {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+}
 @media (max-width:410px) {
     .main-page__ellipse-mega-2 {
         width: 118.04px;

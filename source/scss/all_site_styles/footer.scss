@@ -142,6 +142,10 @@
         
         
     }
+    .footer-bottom__text {
+        padding-left: 25px;
+
+    }
 }
 
 @media (max-width: 520px) {
@@ -151,11 +155,8 @@
         padding-top: 10px;
         margin: 0 auto;
     }
-}
-@media (max-width: 620px) {
-    .footer-bottom__icon {
-        & a{
-            margin-top: 50px;
-        }
+    .footer-bottom__text {
+       font-size: 12px;
+
     }
 }

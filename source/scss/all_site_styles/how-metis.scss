@@ -176,6 +176,12 @@
         
     }
 }
+@media (max-width: 700px) {
+    .how-metis__title {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
 
 @media (max-width: 1300px) {
     .how-metis__ellipse-1 {

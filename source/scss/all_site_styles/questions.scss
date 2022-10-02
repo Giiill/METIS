@@ -132,5 +132,11 @@ details{
         top: 1px;
     }
   }
-
+@media (max-width: 800px) {
+    .questions__list-questions {
+        
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
 
